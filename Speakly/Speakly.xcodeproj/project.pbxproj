@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E9D6332B08BBD30086BEC3 /* SpeaklyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6322B08BBD30086BEC3 /* SpeaklyApp.swift */; };
+		05E9D6352B08BBD30086BEC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6342B08BBD30086BEC3 /* ContentView.swift */; };
+		05E9D6372B08BBD40086BEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E9D6362B08BBD40086BEC3 /* Assets.xcassets */; };
+		05E9D63A2B08BBD40086BEC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E9D6392B08BBD40086BEC3 /* Preview Assets.xcassets */; };
+		05E9D6442B08BBD40086BEC3 /* SpeaklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6432B08BBD40086BEC3 /* SpeaklyTests.swift */; };
+		05E9D64E2B08BBD40086BEC3 /* SpeaklyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D64D2B08BBD40086BEC3 /* SpeaklyUITests.swift */; };
+		05E9D6502B08BBD40086BEC3 /* SpeaklyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D64F2B08BBD40086BEC3 /* SpeaklyUITestsLaunchTests.swift */; };
+		05E9D65E2B08BC530086BEC3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D65D2B08BC530086BEC3 /* UserDefaults.swift */; };
+		05E9D6602B08BC970086BEC3 /* PromptArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D65F2B08BC970086BEC3 /* PromptArray.swift */; };
+		05E9D6632B08BCF80086BEC3 /* PulsingBackgroundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6622B08BCF80086BEC3 /* PulsingBackgroundShape.swift */; };
+		05E9D6692B08BE490086BEC3 /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 05E9D6682B08BE490086BEC3 /* SwiftSpeech */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E9D6402B08BBD40086BEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E9D6272B08BBD30086BEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E9D62E2B08BBD30086BEC3;
+			remoteInfo = Speakly;
+		};
+		05E9D64A2B08BBD40086BEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E9D6272B08BBD30086BEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E9D62E2B08BBD30086BEC3;
+			remoteInfo = Speakly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05096FC32B08C2970087EACE /* SwiftSpeech */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SwiftSpeech; sourceTree = "<group>"; };
+		05E9D62F2B08BBD30086BEC3 /* Speakly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speakly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E9D6322B08BBD30086BEC3 /* SpeaklyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeaklyApp.swift; sourceTree = "<group>"; };
+		05E9D6342B08BBD30086BEC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05E9D6362B08BBD40086BEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05E9D6392B08BBD40086BEC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05E9D63F2B08BBD40086BEC3 /* SpeaklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeaklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E9D6432B08BBD40086BEC3 /* SpeaklyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeaklyTests.swift; sourceTree = "<group>"; };
+		05E9D6492B08BBD40086BEC3 /* SpeaklyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeaklyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E9D64D2B08BBD40086BEC3 /* SpeaklyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeaklyUITests.swift; sourceTree = "<group>"; };
+		05E9D64F2B08BBD40086BEC3 /* SpeaklyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeaklyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05E9D65D2B08BC530086BEC3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		05E9D65F2B08BC970086BEC3 /* PromptArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptArray.swift; sourceTree = "<group>"; };
+		05E9D6622B08BCF80086BEC3 /* PulsingBackgroundShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingBackgroundShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05E9D62C2B08BBD30086BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E9D6692B08BE490086BEC3 /* SwiftSpeech in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E9D63C2B08BBD40086BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E9D6462B08BBD40086BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E9D6262B08BBD30086BEC3 = {
+			isa = PBXGroup;
+			children = (
+				05E9D65C2B08BC3A0086BEC3 /* Shared */,
+				05E9D6312B08BBD30086BEC3 /* Speakly */,
+				05E9D6422B08BBD40086BEC3 /* SpeaklyTests */,
+				05E9D64C2B08BBD40086BEC3 /* SpeaklyUITests */,
+				05E9D6302B08BBD30086BEC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05E9D6302B08BBD30086BEC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D62F2B08BBD30086BEC3 /* Speakly.app */,
+				05E9D63F2B08BBD40086BEC3 /* SpeaklyTests.xctest */,
+				05E9D6492B08BBD40086BEC3 /* SpeaklyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05E9D6312B08BBD30086BEC3 /* Speakly */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D6612B08BCCE0086BEC3 /* Extension */,
+				05E9D6322B08BBD30086BEC3 /* SpeaklyApp.swift */,
+				05E9D6342B08BBD30086BEC3 /* ContentView.swift */,
+				05E9D6362B08BBD40086BEC3 /* Assets.xcassets */,
+				05E9D6382B08BBD40086BEC3 /* Preview Content */,
+			);
+			path = Speakly;
+			sourceTree = "<group>";
+		};
+		05E9D6382B08BBD40086BEC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D6392B08BBD40086BEC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05E9D6422B08BBD40086BEC3 /* SpeaklyTests */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D6432B08BBD40086BEC3 /* SpeaklyTests.swift */,
+			);
+			path = SpeaklyTests;
+			sourceTree = "<group>";
+		};
+		05E9D64C2B08BBD40086BEC3 /* SpeaklyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D64D2B08BBD40086BEC3 /* SpeaklyUITests.swift */,
+				05E9D64F2B08BBD40086BEC3 /* SpeaklyUITestsLaunchTests.swift */,
+			);
+			path = SpeaklyUITests;
+			sourceTree = "<group>";
+		};
+		05E9D65C2B08BC3A0086BEC3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D6642B08BD1A0086BEC3 /* Library */,
+				05E9D65D2B08BC530086BEC3 /* UserDefaults.swift */,
+				05E9D65F2B08BC970086BEC3 /* PromptArray.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		05E9D6612B08BCCE0086BEC3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				05E9D6622B08BCF80086BEC3 /* PulsingBackgroundShape.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		05E9D6642B08BD1A0086BEC3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				05096FC32B08C2970087EACE /* SwiftSpeech */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05E9D62E2B08BBD30086BEC3 /* Speakly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E9D6532B08BBD40086BEC3 /* Build configuration list for PBXNativeTarget "Speakly" */;
+			buildPhases = (
+				05E9D62B2B08BBD30086BEC3 /* Sources */,
+				05E9D62C2B08BBD30086BEC3 /* Frameworks */,
+				05E9D62D2B08BBD30086BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speakly;
+			packageProductDependencies = (
+				05E9D6682B08BE490086BEC3 /* SwiftSpeech */,
+			);
+			productName = Speakly;
+			productReference = 05E9D62F2B08BBD30086BEC3 /* Speakly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05E9D63E2B08BBD40086BEC3 /* SpeaklyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E9D6562B08BBD40086BEC3 /* Build configuration list for PBXNativeTarget "SpeaklyTests" */;
+			buildPhases = (
+				05E9D63B2B08BBD40086BEC3 /* Sources */,
+				05E9D63C2B08BBD40086BEC3 /* Frameworks */,
+				05E9D63D2B08BBD40086BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E9D6412B08BBD40086BEC3 /* PBXTargetDependency */,
+			);
+			name = SpeaklyTests;
+			productName = SpeaklyTests;
+			productReference = 05E9D63F2B08BBD40086BEC3 /* SpeaklyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05E9D6482B08BBD40086BEC3 /* SpeaklyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E9D6592B08BBD40086BEC3 /* Build configuration list for PBXNativeTarget "SpeaklyUITests" */;
+			buildPhases = (
+				05E9D6452B08BBD40086BEC3 /* Sources */,
+				05E9D6462B08BBD40086BEC3 /* Frameworks */,
+				05E9D6472B08BBD40086BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E9D64B2B08BBD40086BEC3 /* PBXTargetDependency */,
+			);
+			name = SpeaklyUITests;
+			productName = SpeaklyUITests;
+			productReference = 05E9D6492B08BBD40086BEC3 /* SpeaklyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E9D6272B08BBD30086BEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					05E9D62E2B08BBD30086BEC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					05E9D63E2B08BBD40086BEC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 05E9D62E2B08BBD30086BEC3;
+					};
+					05E9D6482B08BBD40086BEC3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 05E9D62E2B08BBD30086BEC3;
+					};
+				};
+			};
+			buildConfigurationList = 05E9D62A2B08BBD30086BEC3 /* Build configuration list for PBXProject "Speakly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05E9D6262B08BBD30086BEC3;
+			packageReferences = (
+				05E9D6672B08BE490086BEC3 /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
+			);
+			productRefGroup = 05E9D6302B08BBD30086BEC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E9D62E2B08BBD30086BEC3 /* Speakly */,
+				05E9D63E2B08BBD40086BEC3 /* SpeaklyTests */,
+				05E9D6482B08BBD40086BEC3 /* SpeaklyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E9D62D2B08BBD30086BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E9D63A2B08BBD40086BEC3 /* Preview Assets.xcassets in Resources */,
+				05E9D6372B08BBD40086BEC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E9D63D2B08BBD40086BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E9D6472B08BBD40086BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E9D62B2B08BBD30086BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E9D6352B08BBD30086BEC3 /* ContentView.swift in Sources */,
+				05E9D6602B08BC970086BEC3 /* PromptArray.swift in Sources */,
+				05E9D6332B08BBD30086BEC3 /* SpeaklyApp.swift in Sources */,
+				05E9D65E2B08BC530086BEC3 /* UserDefaults.swift in Sources */,
+				05E9D6632B08BCF80086BEC3 /* PulsingBackgroundShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E9D63B2B08BBD40086BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E9D6442B08BBD40086BEC3 /* SpeaklyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E9D6452B08BBD40086BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E9D6502B08BBD40086BEC3 /* SpeaklyUITestsLaunchTests.swift in Sources */,
+				05E9D64E2B08BBD40086BEC3 /* SpeaklyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05E9D6412B08BBD40086BEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E9D62E2B08BBD30086BEC3 /* Speakly */;
+			targetProxy = 05E9D6402B08BBD40086BEC3 /* PBXContainerItemProxy */;
+		};
+		05E9D64B2B08BBD40086BEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E9D62E2B08BBD30086BEC3 /* Speakly */;
+			targetProxy = 05E9D64A2B08BBD40086BEC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E9D6512B08BBD40086BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05E9D6522B08BBD40086BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05E9D6542B08BBD40086BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speakly/Preview Content\"";
+				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the mircrophone to record audio for speech recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your speech into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.Speakly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05E9D6552B08BBD40086BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speakly/Preview Content\"";
+				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the mircrophone to record audio for speech recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your speech into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.Speakly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05E9D6572B08BBD40086BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.SpeaklyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speakly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speakly";
+			};
+			name = Debug;
+		};
+		05E9D6582B08BBD40086BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.SpeaklyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speakly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speakly";
+			};
+			name = Release;
+		};
+		05E9D65A2B08BBD40086BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.SpeaklyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speakly;
+			};
+			name = Debug;
+		};
+		05E9D65B2B08BBD40086BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.SpeaklyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speakly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E9D62A2B08BBD30086BEC3 /* Build configuration list for PBXProject "Speakly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E9D6512B08BBD40086BEC3 /* Debug */,
+				05E9D6522B08BBD40086BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E9D6532B08BBD40086BEC3 /* Build configuration list for PBXNativeTarget "Speakly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E9D6542B08BBD40086BEC3 /* Debug */,
+				05E9D6552B08BBD40086BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E9D6562B08BBD40086BEC3 /* Build configuration list for PBXNativeTarget "SpeaklyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E9D6572B08BBD40086BEC3 /* Debug */,
+				05E9D6582B08BBD40086BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E9D6592B08BBD40086BEC3 /* Build configuration list for PBXNativeTarget "SpeaklyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E9D65A2B08BBD40086BEC3 /* Debug */,
+				05E9D65B2B08BBD40086BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05E9D6672B08BE490086BEC3 /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05E9D6682B08BE490086BEC3 /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05E9D6672B08BE490086BEC3 /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05E9D6272B08BBD30086BEC3 /* Project object */;
+}
