@@ -152,11 +152,6 @@ struct PracticeWordIndependentView: View {
                         }
                     }
                 }
-                Button("Open") {
-                    isShowingPopup.toggle()
-                    answerWord = "habis"
-                    checkPronunciation(answerWord)
-                }
             }
             .onAppear {
                 generateRandomPrompt()

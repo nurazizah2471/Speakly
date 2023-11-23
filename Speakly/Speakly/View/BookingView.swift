@@ -33,6 +33,7 @@ struct BookingView: View {
                 
             }
             .padding(.top, 30)
+            .padding(.leading, 30)
             
             ScrollView(.horizontal) {
                 HStack(spacing: 25) {
@@ -196,6 +197,8 @@ struct BookingView: View {
                         .padding(.top, 20)
                     Spacer()
                 }
+            .padding(.leading, 30)
+
                 
                 Text("Tidak ada jadwal konsultasi")
                     .font(.system(size: 15))
@@ -207,7 +210,7 @@ struct BookingView: View {
             
             
         }
-        .padding(.leading, 30)
+     
     }
 }
 

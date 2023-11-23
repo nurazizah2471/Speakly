@@ -23,12 +23,7 @@ extension View {
                 .scaleEffect(x: isPulsing.wrappedValue ? maxXScale : 1.0, y: isPulsing.wrappedValue ? maxYScale : 1.0)
                 .opacity(isPulsing.wrappedValue ? 0 : 1)
                 .onAppear {
-                    withAnimation(
-                        Animation.easeInOut(duration: animationDuration)
-                            .repeatForever(autoreverses: false)
-                    ) {
-                        isPulsing.wrappedValue.toggle()
-                    }
+                    isPulsing.wrappedValue.toggle()
                 }
         )
     }

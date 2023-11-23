@@ -33,6 +33,7 @@ struct EvaluationWordIndependentView: View {
                     
                     Spacer()
                 }
+                .padding(.leading, 30)
                 
                 
                 VStack(spacing: 25) {
@@ -42,6 +43,7 @@ struct EvaluationWordIndependentView: View {
                             .font(.system(size: 20))
                         Spacer()
                     }
+                    .padding(.leading, 30)
                     
                     VStack(spacing: 10) {
                         let sortedWords = wordArrays.sorted { $0.values.first! > $1.values.first! }
@@ -73,11 +75,15 @@ struct EvaluationWordIndependentView: View {
                                             .font(.system(size: 13))
                                         
                                     }
-                                    .padding(.trailing)
+                                    .padding(.leading, 30)
+                                    .padding(.trailing, 30)
                                 }
                             }
                         }
                     }
+                    .padding(.leading, 30)
+                    .padding(.trailing, 30)
+
                 }
                 .padding(.top, 20)
                 
@@ -88,6 +94,8 @@ struct EvaluationWordIndependentView: View {
                             .font(.system(size: 20))
                         Spacer()
                     }
+                    .padding(.leading, 30)
+                    
                     
                     ScrollView {
                         VStack {
@@ -160,6 +168,7 @@ struct EvaluationWordIndependentView: View {
                         }
                         .padding()
                     }
+                    .padding(.trailing, 30)
                 }
                 .padding(.top, 20)
                 Spacer()

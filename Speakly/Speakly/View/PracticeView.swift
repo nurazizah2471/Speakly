@@ -20,6 +20,7 @@ struct PracticeView: View {
                 Spacer()
             }
             .padding(.top, 30)
+            .padding(.leading, 30)
             
             ScrollView {
                 ZStack {
@@ -96,7 +97,6 @@ struct PracticeView: View {
             }
             Spacer()
         }
-        .padding(.leading, 30)
     }
 }
 

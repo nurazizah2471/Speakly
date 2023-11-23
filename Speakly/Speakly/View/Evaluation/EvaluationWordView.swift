@@ -19,6 +19,7 @@ struct EvaluationWordView: View {
                 
                 Spacer()
             }
+            .padding(.leading, 30)
             
             ScrollView {
                 ZStack {
@@ -73,7 +74,6 @@ struct EvaluationWordView: View {
             }
             Spacer()
         }
-        .padding(.leading, 30)
     }
 }
 

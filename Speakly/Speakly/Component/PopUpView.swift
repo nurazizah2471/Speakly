@@ -136,6 +136,8 @@ struct PopUpView: View {
             .background(Color.white)
             .cornerRadius(10)
             .shadow(radius: 5)
+            .padding(.horizontal, UIScreen.main.bounds.size.width * 0.1)
+            .padding(.vertical, UIScreen.main.bounds.size.width * 0.5)
         }
         .background(Color.black.opacity(0.3).edgesIgnoringSafeArea(.all))
         .edgesIgnoringSafeArea(.all)

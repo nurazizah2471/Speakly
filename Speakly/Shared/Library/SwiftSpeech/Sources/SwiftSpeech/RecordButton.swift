@@ -59,7 +59,6 @@ public extension SwiftSpeech {
             
             ZStack {
                 backgroundColor
-                    .animation(.easeOut(duration: 0.2))
                     .clipShape(Circle())
                     .environment(\.isEnabled, $authStatus)  // When isEnabled is false, the accent color is gray and all user interactions are disabled inside the view.
                     .zIndex(0)
