@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		05E9D6332B08BBD30086BEC3 /* SpeaklyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6322B08BBD30086BEC3 /* SpeaklyApp.swift */; };
-		05E9D6352B08BBD30086BEC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6342B08BBD30086BEC3 /* ContentView.swift */; };
 		05E9D6372B08BBD40086BEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E9D6362B08BBD40086BEC3 /* Assets.xcassets */; };
 		05E9D63A2B08BBD40086BEC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E9D6392B08BBD40086BEC3 /* Preview Assets.xcassets */; };
 		05E9D6442B08BBD40086BEC3 /* SpeaklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6432B08BBD40086BEC3 /* SpeaklyTests.swift */; };
@@ -18,6 +17,32 @@
 		05E9D6602B08BC970086BEC3 /* PromptArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D65F2B08BC970086BEC3 /* PromptArray.swift */; };
 		05E9D6632B08BCF80086BEC3 /* PulsingBackgroundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9D6622B08BCF80086BEC3 /* PulsingBackgroundShape.swift */; };
 		05E9D6692B08BE490086BEC3 /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 05E9D6682B08BE490086BEC3 /* SwiftSpeech */; };
+		0B6DF16A2B0E325A00A1F22A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6DF1692B0E325A00A1F22A /* ModelData.swift */; };
+		0B78718F2B0DEFC6008917A1 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78718E2B0DEFC6008917A1 /* Routes.swift */; };
+		0B7871932B0DF0AF008917A1 /* EnvironmentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871922B0DF0AF008917A1 /* EnvironmentValue.swift */; };
+		0B7871952B0DF15F008917A1 /* ContentViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871942B0DF15F008917A1 /* ContentViewContainer.swift */; };
+		0B7871972B0DF1AE008917A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871962B0DF1AE008917A1 /* ContentView.swift */; };
+		0B7871992B0DF1DB008917A1 /* PracticeWordIndependentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871982B0DF1DB008917A1 /* PracticeWordIndependentView.swift */; };
+		0B78719B2B0DF217008917A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78719A2B0DF217008917A1 /* HomeView.swift */; };
+		0B78719D2B0DF467008917A1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78719C2B0DF467008917A1 /* LoadingView.swift */; };
+		0B7871A12B0DF4D7008917A1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871A02B0DF4D7008917A1 /* UserModel.swift */; };
+		0B7871A32B0DF5CC008917A1 /* SignInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871A22B0DF5CC008917A1 /* SignInButtonView.swift */; };
+		0B7871A72B0DF89C008917A1 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871A62B0DF89C008917A1 /* UserViewModel.swift */; };
+		0B7871AA2B0DF920008917A1 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871A92B0DF920008917A1 /* BaseViewModel.swift */; };
+		0B7871AC2B0DF97A008917A1 /* ModelGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871AB2B0DF97A008917A1 /* ModelGenerator.swift */; };
+		0B7871AE2B0DF9C6008917A1 /* CustomPersistentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7871AD2B0DF9C6008917A1 /* CustomPersistentModel.swift */; };
+		0BA037FF2B0E5A2E00E77018 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA037FE2B0E5A2E00E77018 /* CloudKitManager.swift */; };
+		0BA038012B0E777F00E77018 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038002B0E777F00E77018 /* PracticeView.swift */; };
+		0BA038032B0E780C00E77018 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038022B0E780C00E77018 /* BookingView.swift */; };
+		0BA038052B0E797E00E77018 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038042B0E797E00E77018 /* TutorialView.swift */; };
+		0BA038072B0E79A300E77018 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038062B0E79A300E77018 /* AccountView.swift */; };
+		0BA038092B0E7CFF00E77018 /* ScreenComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038082B0E7CFE00E77018 /* ScreenComponent.swift */; };
+		0BA0380C2B0E844300E77018 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA0380B2B0E844300E77018 /* ColorExtension.swift */; };
+		0BA0380E2B0E92C600E77018 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA0380D2B0E92C600E77018 /* PopUpView.swift */; };
+		0BA038112B0EAB7C00E77018 /* EvaluationWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038102B0EAB7C00E77018 /* EvaluationWordView.swift */; };
+		0BA038132B0EAC3600E77018 /* EvaluationWordIndependentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038122B0EAC3600E77018 /* EvaluationWordIndependentView.swift */; };
+		0BA038152B0EB66100E77018 /* WordPracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038142B0EB66100E77018 /* WordPracticeViewModel.swift */; };
+		0BA038172B0EB71900E77018 /* WordPracticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA038162B0EB71900E77018 /* WordPracticeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +66,6 @@
 		05096FC32B08C2970087EACE /* SwiftSpeech */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SwiftSpeech; sourceTree = "<group>"; };
 		05E9D62F2B08BBD30086BEC3 /* Speakly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speakly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E9D6322B08BBD30086BEC3 /* SpeaklyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeaklyApp.swift; sourceTree = "<group>"; };
-		05E9D6342B08BBD30086BEC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05E9D6362B08BBD40086BEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E9D6392B08BBD40086BEC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05E9D63F2B08BBD40086BEC3 /* SpeaklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeaklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +76,34 @@
 		05E9D65D2B08BC530086BEC3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		05E9D65F2B08BC970086BEC3 /* PromptArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptArray.swift; sourceTree = "<group>"; };
 		05E9D6622B08BCF80086BEC3 /* PulsingBackgroundShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingBackgroundShape.swift; sourceTree = "<group>"; };
+		0B6DF1692B0E325A00A1F22A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0B78718E2B0DEFC6008917A1 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		0B7871922B0DF0AF008917A1 /* EnvironmentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValue.swift; sourceTree = "<group>"; };
+		0B7871942B0DF15F008917A1 /* ContentViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewContainer.swift; sourceTree = "<group>"; };
+		0B7871962B0DF1AE008917A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B7871982B0DF1DB008917A1 /* PracticeWordIndependentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeWordIndependentView.swift; sourceTree = "<group>"; };
+		0B78719A2B0DF217008917A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0B78719C2B0DF467008917A1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0B7871A02B0DF4D7008917A1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0B7871A22B0DF5CC008917A1 /* SignInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButtonView.swift; sourceTree = "<group>"; };
+		0B7871A62B0DF89C008917A1 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0B7871A92B0DF920008917A1 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		0B7871AB2B0DF97A008917A1 /* ModelGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGenerator.swift; sourceTree = "<group>"; };
+		0B7871AD2B0DF9C6008917A1 /* CustomPersistentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomPersistentModel.swift; path = ../CustomPersistentModel.swift; sourceTree = "<group>"; };
+		0B7871AF2B0E0970008917A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0B7871B02B0E0995008917A1 /* Speakly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Speakly.entitlements; sourceTree = "<group>"; };
+		0BA037FE2B0E5A2E00E77018 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		0BA038002B0E777F00E77018 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		0BA038022B0E780C00E77018 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		0BA038042B0E797E00E77018 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		0BA038062B0E79A300E77018 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0BA038082B0E7CFE00E77018 /* ScreenComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenComponent.swift; sourceTree = "<group>"; };
+		0BA0380B2B0E844300E77018 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		0BA0380D2B0E92C600E77018 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		0BA038102B0EAB7C00E77018 /* EvaluationWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationWordView.swift; sourceTree = "<group>"; };
+		0BA038122B0EAC3600E77018 /* EvaluationWordIndependentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationWordIndependentView.swift; sourceTree = "<group>"; };
+		0BA038142B0EB66100E77018 /* WordPracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPracticeViewModel.swift; sourceTree = "<group>"; };
+		0BA038162B0EB71900E77018 /* WordPracticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPracticeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +156,19 @@
 		05E9D6312B08BBD30086BEC3 /* Speakly */ = {
 			isa = PBXGroup;
 			children = (
+				0B7871B02B0E0995008917A1 /* Speakly.entitlements */,
+				0B7871AF2B0E0970008917A1 /* Info.plist */,
+				0B7871B12B0E1096008917A1 /* View */,
+				0B7871A82B0DF8A2008917A1 /* ViewModel */,
+				0B78719F2B0DF4CD008917A1 /* Model */,
+				0B78719E2B0DF46C008917A1 /* Component */,
 				05E9D6612B08BCCE0086BEC3 /* Extension */,
 				05E9D6322B08BBD30086BEC3 /* SpeaklyApp.swift */,
-				05E9D6342B08BBD30086BEC3 /* ContentView.swift */,
 				05E9D6362B08BBD40086BEC3 /* Assets.xcassets */,
 				05E9D6382B08BBD40086BEC3 /* Preview Content */,
+				0B78718E2B0DEFC6008917A1 /* Routes.swift */,
+				0B7871962B0DF1AE008917A1 /* ContentView.swift */,
+				0B7871942B0DF15F008917A1 /* ContentViewContainer.swift */,
 			);
 			path = Speakly;
 			sourceTree = "<group>";
@@ -151,7 +211,9 @@
 		05E9D6612B08BCCE0086BEC3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0BA0380B2B0E844300E77018 /* ColorExtension.swift */,
 				05E9D6622B08BCF80086BEC3 /* PulsingBackgroundShape.swift */,
+				0B7871922B0DF0AF008917A1 /* EnvironmentValue.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -162,6 +224,71 @@
 				05096FC32B08C2970087EACE /* SwiftSpeech */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		0B78719E2B0DF46C008917A1 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0B78719C2B0DF467008917A1 /* LoadingView.swift */,
+				0B7871A22B0DF5CC008917A1 /* SignInButtonView.swift */,
+				0BA038082B0E7CFE00E77018 /* ScreenComponent.swift */,
+				0BA0380D2B0E92C600E77018 /* PopUpView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0B78719F2B0DF4CD008917A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B7871AD2B0DF9C6008917A1 /* CustomPersistentModel.swift */,
+				0B6DF1692B0E325A00A1F22A /* ModelData.swift */,
+				0B7871AB2B0DF97A008917A1 /* ModelGenerator.swift */,
+				0B7871A02B0DF4D7008917A1 /* UserModel.swift */,
+				0BA038162B0EB71900E77018 /* WordPracticeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B7871A82B0DF8A2008917A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0BA037FE2B0E5A2E00E77018 /* CloudKitManager.swift */,
+				0B7871A92B0DF920008917A1 /* BaseViewModel.swift */,
+				0B7871A62B0DF89C008917A1 /* UserViewModel.swift */,
+				0BA038142B0EB66100E77018 /* WordPracticeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0B7871B12B0E1096008917A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BA0380F2B0EAB6900E77018 /* Evaluation */,
+				0B78719A2B0DF217008917A1 /* HomeView.swift */,
+				0BA038002B0E777F00E77018 /* PracticeView.swift */,
+				0BA038022B0E780C00E77018 /* BookingView.swift */,
+				0BA038042B0E797E00E77018 /* TutorialView.swift */,
+				0BA038062B0E79A300E77018 /* AccountView.swift */,
+				0BA0380A2B0E80D700E77018 /* PracticeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BA0380A2B0E80D700E77018 /* PracticeView */ = {
+			isa = PBXGroup;
+			children = (
+				0B7871982B0DF1DB008917A1 /* PracticeWordIndependentView.swift */,
+			);
+			path = PracticeView;
+			sourceTree = "<group>";
+		};
+		0BA0380F2B0EAB6900E77018 /* Evaluation */ = {
+			isa = PBXGroup;
+			children = (
+				0BA038102B0EAB7C00E77018 /* EvaluationWordView.swift */,
+				0BA038122B0EAC3600E77018 /* EvaluationWordIndependentView.swift */,
+			);
+			path = Evaluation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,10 +427,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E9D6352B08BBD30086BEC3 /* ContentView.swift in Sources */,
+				0BA038152B0EB66100E77018 /* WordPracticeViewModel.swift in Sources */,
+				0B78718F2B0DEFC6008917A1 /* Routes.swift in Sources */,
+				0BA0380E2B0E92C600E77018 /* PopUpView.swift in Sources */,
 				05E9D6602B08BC970086BEC3 /* PromptArray.swift in Sources */,
+				0B7871AE2B0DF9C6008917A1 /* CustomPersistentModel.swift in Sources */,
+				0B7871992B0DF1DB008917A1 /* PracticeWordIndependentView.swift in Sources */,
+				0B78719D2B0DF467008917A1 /* LoadingView.swift in Sources */,
+				0B78719B2B0DF217008917A1 /* HomeView.swift in Sources */,
+				0BA038172B0EB71900E77018 /* WordPracticeModel.swift in Sources */,
+				0BA038132B0EAC3600E77018 /* EvaluationWordIndependentView.swift in Sources */,
+				0B7871A72B0DF89C008917A1 /* UserViewModel.swift in Sources */,
 				05E9D6332B08BBD30086BEC3 /* SpeaklyApp.swift in Sources */,
+				0BA038072B0E79A300E77018 /* AccountView.swift in Sources */,
+				0BA037FF2B0E5A2E00E77018 /* CloudKitManager.swift in Sources */,
+				0BA038032B0E780C00E77018 /* BookingView.swift in Sources */,
+				0BA038092B0E7CFF00E77018 /* ScreenComponent.swift in Sources */,
+				0B7871AC2B0DF97A008917A1 /* ModelGenerator.swift in Sources */,
 				05E9D65E2B08BC530086BEC3 /* UserDefaults.swift in Sources */,
+				0BA038112B0EAB7C00E77018 /* EvaluationWordView.swift in Sources */,
+				0BA0380C2B0E844300E77018 /* ColorExtension.swift in Sources */,
+				0BA038012B0E777F00E77018 /* PracticeView.swift in Sources */,
+				0B7871A32B0DF5CC008917A1 /* SignInButtonView.swift in Sources */,
+				0B6DF16A2B0E325A00A1F22A /* ModelData.swift in Sources */,
+				0B7871972B0DF1AE008917A1 /* ContentView.swift in Sources */,
+				0B7871932B0DF0AF008917A1 /* EnvironmentValue.swift in Sources */,
+				0B7871AA2B0DF920008917A1 /* BaseViewModel.swift in Sources */,
+				0BA038052B0E797E00E77018 /* TutorialView.swift in Sources */,
+				0B7871952B0DF15F008917A1 /* ContentViewContainer.swift in Sources */,
+				0B7871A12B0DF4D7008917A1 /* UserModel.swift in Sources */,
 				05E9D6632B08BCF80086BEC3 /* PulsingBackgroundShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,12 +617,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Speakly/Speakly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Speakly/Preview Content\"";
-				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				DEVELOPMENT_TEAM = 6YX78LK26M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speakly/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the mircrophone to record audio for speech recognition.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your speech into text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -483,7 +637,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.Speakly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zizah.Speakly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -496,12 +650,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Speakly/Speakly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Speakly/Preview Content\"";
-				DEVELOPMENT_TEAM = G6VH4SDWTF;
+				DEVELOPMENT_TEAM = 6YX78LK26M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speakly/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the mircrophone to record audio for speech recognition.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your speech into text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -514,7 +670,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.speaklyteam.Speakly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zizah.Speakly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
